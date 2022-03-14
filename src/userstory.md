@@ -16,3 +16,7 @@ Sarah decides to participate in NaNoWriMo's events this year and invites her wri
 Sarah is pleased with the progress she's made. She's better able to focus on her goals and sees her friends succeeding in their goals too. She's become healthier by drinking water and walking regularly. Her sleep has improved too. She was able to easily see the correlation between the days she walked and a good sleep. With her mind less fuzzy, she's considering adding new goals to her life. She laughs to herself as she realizes she'll have to create another habit. Now that her novel is ready to publish, she'll need to remember to check in on her social media to connect with fans. Or maybe she will start a book club group with her fans. She could reach her reading goals and enjoy spending time her fans at the same time.
 
 Another win-win!
+
+~~
+
+*Return to the [Habit Party](../svcdesign) page.*

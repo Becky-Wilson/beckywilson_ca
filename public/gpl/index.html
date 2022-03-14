@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group PhysioLocator</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@300;400;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Khula:wght@300;400;600&family=Marck+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <main>
+        <br>
+<div class="aligncenter">
+<p><a class="plain" href="../index.html"> <span class="sitetitle" >Becky Wilson</span></a></p>
+<hr>
+<!-- <p class="subtitle">Hello. My name is Becky. Welcome to the virtual home of my creative projects.</p> -->
+<div class="columns">
+    <div></div>
+    <div>
+        <a href="../svcdesign"><h2>Service Design</h2></a>
+    </div>
+    <div>
+        <a href="../uidesign"><h2>UI Design</h2></a>
+    </div>
+    <div>
+        <a href="../sitedesign"><h2>Website Design</h2></a>
+    </div>
+    <div></div>
+</div>
+</div>
+<hr>
+<br>
+        
+<h1>Group PhysioLocator</h1>
+<p>
+    This app is in intended as a tool for temporarily tracking a group of people.
+    Potential applications include GSAR, youth groups, cleanup groups, and friends
+    at events.
+</p>
+<h2>App Benefits</h2>
+<ul>
+    <li>Allow phone-to-phone connections when cell service is not available.</li>
+    <li>Secure messaging between phones.</li>
+    <li>Retrieve and save map data on the device or use GPS location.</li>
+    <li>
+        <i>Verification in process:</i> When cell service is not available,
+        relational distance may be estimated when at least four users are in range
+        of each other.
+    </li>
+</ul>
+<h3>Future Considerations</h3>
+<ul>
+    <li>Scale tool overlay for photos</li>
+    <li>Trig calculations for navigation and scale</li>
+    <li>Secure photo sharing</li>
+    <li>
+        <i>Option intended for GSAR use.</i> Event photo control where photos are
+        removed from devices and screenshots are disabled; approval for permissions
+        required on event attendee's phone.
+    </li>
+</ul>
+<h2>UI Design</h2>
+<h3>General Decisions</h3>
+<p>
+    The font is a sans font using various sizes for readability. Priority text is
+    black while gray is used for lower priority items. The contrast is accessible
+    for all colors.
+</p>
+<p>
+    Menu and button placement are arranged using the 'primary left' rule. This is
+    easier on the phone, uses less eye movement, and can allow for one-handed
+    access.
+</p>
+<p>
+    Icons are typically a gray 30 px image with 48 px spacing. The phone and chat
+    icons are black due to their high priority. Lower priority icons are 20 px
+    with the 48 px spacing.
+</p>
+<h3>Figma</h3>
+    <h4>Active Screen</h4>
+    <a href="../assets/images/gpl_active.png"><img class="imageleftsm"
+            src="../assets/images/gpl_active.png" alt="UI Design for active screen" /></a>
+    <p>
+        This is the primary screen with a map along with messaging and a button to
+        call the active selection.
+    </p>
+    <p>
+        Selections are available for the map, messaging, and call functions and can
+        include an individual, group, or all participants. At the top of this screen
+        are the total active participants and their range, using units set in the
+        device settings. The pinged line indicates a direct message sent by an
+        individual to the users. The arrow moves the name into the active selection
+        field. The chat field will scroll, including the individuals indicated in
+        the Selection field. Tapping on the keyboard icon will open an overlay with
+        the chat field and a keyboard.
+    </p>
+<h3>Other Screens</h3>
+<div class="columns">
+    <div>
+        <p class="caption">UI design for event setup screen</p>
+        <a href="../assets/images/gpl_event.png"><img class="wireframe"
+                src="../assets/images/gpl_event.png" alt="UI design for event setup screen" /></a>
+    </div>
+    <div>
+        <p class="caption">UI design for inviting attendees to the event</p>
+        <a href="../assets/images/gpl_setup_attendee.png"><img class="wireframe"
+                src="../assets/images/gpl_setup_attendee.png" alt="UI design for inviting attendees to the event" /></a>
+    </div>
+    <div>
+        <p class="caption">UI design for arranging attendees into groups</p>
+        <a href="../assets/images/gpl_setup_group.png"><img class="wireframe"
+                src="../assets/images/gpl_setup_group.png" alt="UI design for arranging attendees into groups" /></a>
+    </div>
+    <div>
+        <p class="caption">UI design for setting up the individual user</p>
+        <a href="../assets/images/gpl_individual.png"><img class="wireframe"
+                src="../assets/images/gpl_individual.png" alt="UI design for setting up the individual user" /></a>
+    </div>
+    <div>
+        <p class="caption">UI design for a user viewing their event history</p>
+        <a href="../assets/images/gpl_history.png"><img class="wireframe"
+                src="../assets/images/gpl_history.png" alt="UI design for a user viewing their event history" /></a>
+    </div>
+    <div>
+        <p class="caption">UI design for the settings screen</p>
+        <a href="../assets/images/gpl_settings.png"><img class="wireframe"
+                src="../assets/images/gpl_settings.png" alt="UI design for the settings screen" /></a>
+    </div>
+</div>
+<br />
+        <footer>
+    <div class="aligncenter fixfloat">
+        <br>
+        <hr>
+        <p>Follow or message me on <a
+                href="https://twitter.com/BeckyWilson_ca" target="_blank">Twitter</a> or email me at <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#98;&#101;&#99;&#107;&#121;&#109;&#97;&#114;&#105;&#101;&#46;&#119;&#105;&#108;&#115;&#111;&#110;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#98;&#101;&#99;&#107;&#121;&#109;&#97;&#114;&#105;&#101;&#46;&#119;&#105;&#108;&#115;&#111;&#110;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a>.</p>
+        <hr>
+        <p>© Copyright 2022 All rights reserved.</p>
+        <br>
+    </div>
+    <!-- Default Statcounter code for BeckyWilson.ca
+http://beckywilson.ca -->
+    <script type="text/javascript">
+        var sc_project = 12561785;
+        var sc_invisible = 1;
+        var sc_security = "d0c88171";
+    </script>
+    <script type="text/javascript" src="https://www.statcounter.com/counter/counter.js" async></script>
+    <noscript>
+        <div class="statcounter"><a title="Web Analytics
+    Made Easy - StatCounter" href="https://statcounter.com/" target="_blank"><img class="statcounter"
+                    src="https://c.statcounter.com/12561785/0/d0c88171/1/" alt="Web Analytics Made Easy -
+    StatCounter"></a></div>
+    </noscript>
+    <!-- End of Statcounter Code -->
+  </footer>
+    </main>
+</body>
+</html>

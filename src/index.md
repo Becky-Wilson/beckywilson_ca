@@ -10,8 +10,8 @@ Hello! My name is Becky, and I am a Service Designer with a focus on UI Design. 
 Learn about my personal projects at the links below.
 * [Service Design](../svcdesign/)
 * [UI Design](../uidesign)
-* [Other Creative Work](../other)
-* [Graphic Design](../graphics)
+* [Website Design](../sitedesign)
+
 
 Thanks for dropping by,
 
