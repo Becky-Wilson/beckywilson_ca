@@ -42,7 +42,7 @@ Due to the ease at which images can mess up websites, images need to be added by
 ## Cost
 The intent is to keep this cost effective as well as simple and easy. The initial cost structure concept is below. This is subject to change as more research and tests are completed. However, the brochure or one-page cost is not expected to change.
 
-Each level includes one form or connection to an email marketing platform. Also included is one change on any page during a quarter. In light of marketing for books, the quarters are offset from normal (Feb-April, May-July, Aug-Oct, Nov - Jan). The change can be requested at any point, and additional changes can be added for additional cost. 
+Each level includes one form or connection to an email marketing platform. Also included is one change to any page during a quarter. The change can be requested at any point, they roll-over to the next quarter if not used, and additional changes can be added for additional cost. 
 
 ### Pricing
 #### Simple
