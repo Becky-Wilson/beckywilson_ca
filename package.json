@@ -15,5 +15,10 @@
   },
   "dependencies": {
     "minimist": "^1.2.6"
+  },
+  "overrides": {
+    "browser-sync": {
+      "portscanner": "2.2.0"
+    }
   }
 }
